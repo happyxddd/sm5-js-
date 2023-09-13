@@ -1,0 +1,34 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.object
+{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin: 10px;
+}
+.main-case
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.link
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    text-decoration: none;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    transition: all 0.3s linear;
+}
+.link:hover 
+{
+    color: rgb(116, 48, 184);
+}
